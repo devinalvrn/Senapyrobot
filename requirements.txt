@@ -1,0 +1,13 @@
+git+https://github.com/hakutakaid/pyrogram
+motor
+pymongo
+aiohttp
+pytgcalls==3.0.0.dev24
+apscheduler
+psutil
+telegraph
+git+https://github.com/Itz-fork/py-trans.git
+python-dotenv
+prettytable
+wget
+tgcrypto

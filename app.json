@@ -1,0 +1,40 @@
+{
+  "name": "Sena-Pyro",
+  "env": {
+    "API_ID": {
+      "description": "Dapatkan API ID di web my.telegram.org Masukan yg APP ID Telegram",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Dapatkan API Hash di web my.telegram.org",
+      "required": true
+    },
+    "MONGO_URL": {
+      "description": "You Know Lah",
+      "required": true
+    },
+      "BOT_TOKEN": {
+      "description": "You Know Lah",
+      "required": true
+    },
+      "OWNER_ID": {
+      "description": "You Know Lah",
+      "required": true
+    },
+    "SESSION1": {
+      "description": "Nganu ",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  }
+}
